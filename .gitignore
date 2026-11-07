@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Dependencies (if managed through Composer)
+vendor/
+
+# Testing and coverage
+.phpunit.cache/
+coverage/
+.phpunit.result.cache
+
+# Build artifacts
+node_modules/
+npm-debug.log*
+dist/
+
+# Local development
+.local/
